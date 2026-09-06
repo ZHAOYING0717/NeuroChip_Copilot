@@ -9,7 +9,7 @@
 ## Required links
 
 - **Public demo video (maximum 5 minutes):** `[PUBLIC_VIDEO_URL]`
-- **Public code repository:** `[PUBLIC_REPOSITORY_URL]`
+- **Public code repository:** `https://github.com/ZHAOYING0717/NeuroChip_Copilot`
 - **Technical report PDF:** `[PUBLIC_REPORT_URL_OR_KAGGLE_ATTACHMENT]`
 - **Optional public application:** `[PUBLIC_DEMO_URL]`
 
