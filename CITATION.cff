@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use NeuroChip Copilot, cite this software and the public datasets listed in the README."
+title: "NeuroChip Copilot"
+type: software
+version: 0.4.0
+date-released: 2026-08-23
+license: MIT
+authors:
+  - name: "NeuroChip Copilot Team"
+abstract: "Quality-aware event-level electrophysiology phenotyping, explainable reference deviation, and goal-aware multidimensional intervention evaluation for neural organ chips and brain organoids."
+keywords:
+  - organ-on-a-chip
+  - brain organoid
+  - microelectrode array
+  - electrophysiology
+  - anomaly detection
+  - drug response

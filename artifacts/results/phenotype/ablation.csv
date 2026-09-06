@@ -1,0 +1,8 @@
+feature_set,n_features,roc_auc
+full_functional,18,0.8579423868312758
+research_extended_exploratory,30,0.8389300411522634
+activity_only,7,0.7347325102880659
+spike_timing_only,2,0.5463374485596708
+network_only,9,0.8271604938271605
+stability_criticality,8,0.6070781893004115
+information_flow,4,0.5822222222222222

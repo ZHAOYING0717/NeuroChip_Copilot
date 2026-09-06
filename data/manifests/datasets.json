@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "forebrain_spikes": {
+      "title": "Spontaneous activity spike data and RNA-seq gene expression data from human forebrain organoids",
+      "record_id": "20286251",
+      "doi": "10.5281/zenodo.20286251",
+      "creator": "Naoya Itatani",
+      "creator_orcid": "0000-0003-3662-3499",
+      "license": "CC BY 4.0",
+      "role": "reference phenotype cohort and anomaly-model training",
+      "files": [
+        {
+          "name": "Indiv_organoids.zip",
+          "size_bytes": 7606972,
+          "md5": "0ca4215ca670bfcd7d66eb7da378fac9",
+          "url": "https://zenodo.org/api/records/20286251/files/Indiv_organoids.zip/content",
+          "extract_to": "data/interim/zenodo_20286251/individual"
+        },
+        {
+          "name": "fig_table_source_data.xlsx",
+          "size_bytes": 265298,
+          "md5": "2c865a89167fa5dbffd8ef1cccdef83d",
+          "url": "https://zenodo.org/api/records/20286251/files/fig_table_source_data.xlsx/content"
+        },
+        {
+          "name": "analysis_scripts.zip",
+          "size_bytes": 43723,
+          "md5": "b4a100f1d733a81828accd7fa79ea38d",
+          "url": "https://zenodo.org/api/records/20286251/files/analysis_scripts.zip/content"
+        }
+      ]
+    },
+    "diazepam_response": {
+      "title": "Extracellular Recordings from Human Brain Organoids Using High-density CMOS Arrays",
+      "record_id": "6578989",
+      "doi": "10.25349/D9031Z",
+      "creator": "Tal Sharf",
+      "creator_orcid": "0000-0002-7899-2818",
+      "license": "CC0 1.0",
+      "role": "dose-response modeling and cross-platform validation",
+      "paper": {
+        "title": "Functional neuronal circuitry and oscillatory dynamics in human brain organoids",
+        "doi": "10.1038/s41467-022-32115-4",
+        "pmid": "35906223",
+        "pmcid": "PMC9338020"
+      },
+      "files": [
+        {
+          "name": "README_organoid_data.txt",
+          "size_bytes": 4182,
+          "md5": "10a0428f920b6a57ec763a28b96726f3",
+          "url": "https://zenodo.org/api/records/6578989/files/README_organoid_data.txt/content"
+        },
+        {
+          "name": "kilosort2.zip",
+          "size_bytes": 929469838,
+          "md5": "4716e750713ce50aef7ff2810c5598d6",
+          "url": "https://zenodo.org/api/records/6578989/files/kilosort2.zip/content",
+          "extract_to": "data/interim/zenodo_6578989",
+          "extract_prefixes": [
+            "kilosort2/drug/"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+artifacts
+output
+data/raw
+data/interim
+data/processed
+docs/assets/*.pdf
+docs/assets/*.svg
+docs/assets/*.tiff

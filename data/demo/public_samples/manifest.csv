@@ -1,0 +1,7 @@
+﻿sample_id,dataset_id,dataset_label,sample_label,file_name,duration_s,data_doi,context,notice
+forebrain__fs363-org0,forebrain_reference,前脑类器官参考,fs363-org0,../fs363-org0_events.csv,400.0,10.5281/zenodo.20286251,公开前脑类器官MEA记录,
+diazepam__control_2950,diazepam_organoid,脑类器官地西泮,类器官 2950 | 匹配对照,diazepam__control_2950_events.csv,180.0,10.25349/D9031Z,脑类器官药理记录 | 匹配对照,该数据集用于配对响应建模；单条记录不能单独判断药物效果好坏。
+diazepam__diazepam50uM_2950,diazepam_organoid,脑类器官地西泮,类器官 2950 | 地西泮 50 uM,diazepam__diazepam50uM_2950_events.csv,180.0,10.25349/D9031Z,脑类器官药理记录 | 地西泮 50 uM,该数据集用于配对响应建模；单条记录不能单独判断药物效果好坏。
+gin__hpsc_mea3__pharma__A5,gin_comparative_mea,GIN二维神经网络,人源iPSC二维神经元 | 孔 A5 | 药物处理 | Gabazine 30 uM,gin__hpsc_mea3__pharma__A5_events.csv,180.0,10.12751/g-node.wvr3jf,人源iPSC二维神经元 | 药物处理 | 孔 A5,这是二维神经元外部验证数据；功能状态轴和参考偏离分位仅作跨数据域探索。
+trujillo__161217__7__baseline_control,trujillo_cortical_organoid,Trujillo皮层类器官,2016-12-17 | 孔 7 | 基线1 | CNQX+AP5,trujillo__161217__7__baseline_control_events.csv,120.0,10.5281/zenodo.4751759,皮层类器官 | 基线1 | 孔 7 | CNQX+AP5,该公开数据用于不同实验方案下的外部验证；单条记录不等于处理效应判断。
+trujillo__161217__7__post_treatment,trujillo_cortical_organoid,Trujillo皮层类器官,2016-12-17 | 孔 7 | 处理后 | CNQX+AP5,trujillo__161217__7__post_treatment_events.csv,120.0,10.5281/zenodo.4751759,皮层类器官 | 处理后 | 孔 7 | CNQX+AP5,该公开数据用于不同实验方案下的外部验证；单条记录不等于处理效应判断。

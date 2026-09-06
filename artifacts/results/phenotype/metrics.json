@@ -1,0 +1,58 @@
+{
+  "n_reference_recordings": 45,
+  "n_unique_fs_groups": 16,
+  "cross_validation": "5-fold GroupKFold by fs_id",
+  "roc_auc": 0.8579423868312758,
+  "roc_auc_cluster_bootstrap_95ci": [
+    0.7962818930041152,
+    0.9145061728395061
+  ],
+  "average_precision": 0.927381757876373,
+  "balanced_accuracy_at_95th_percentile": 0.5666666666666667,
+  "threshold_sensitivity_balanced_accuracy": {
+    "p90": 0.7185185185185186,
+    "p95": 0.5666666666666667,
+    "p97.5": 0.5185185185185185
+  },
+  "fold_roc_auc": {
+    "1": 0.8866666666666666,
+    "2": 0.905,
+    "3": 0.8724279835390947,
+    "4": 0.7838541666666667,
+    "5": 0.84375
+  },
+  "per_perturbation_auc": {
+    "channel_dropout": 0.7562962962962964,
+    "hyperactivity": 0.9032098765432098,
+    "hypersynchrony": 0.9143209876543209
+  },
+  "perturbations": [
+    "channel_dropout",
+    "hyperactivity",
+    "hypersynchrony"
+  ],
+  "feature_names": [
+    "firing_rate_mean_hz",
+    "firing_rate_median_hz",
+    "firing_rate_std_hz",
+    "firing_rate_max_hz",
+    "firing_rate_cv",
+    "active_channel_fraction",
+    "dominant_channel_fraction",
+    "isi_median_s",
+    "isi_cv_mean",
+    "sttc_mean",
+    "sttc_median",
+    "sttc_max",
+    "network_density",
+    "network_clustering",
+    "population_entropy",
+    "network_burst_rate_per_min",
+    "network_burst_mean_duration_s",
+    "network_burst_participation"
+  ],
+  "feature_schema_version": 2.0,
+  "explanation": "Monte Carlo single-reference Shapley values relative to the robust training median.",
+  "advanced_feature_policy": "Stability, avalanche, and information-flow descriptors are reported, but the validated 18-feature model is retained because the 30-feature exploratory model reduced grouped-CV AUROC.",
+  "scope": "Synthetic event-level perturbation detection; not clinical or raw-waveform validation."
+}

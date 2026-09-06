@@ -1,0 +1,43 @@
+{
+  "completed_utc": "2026-08-04T16:04:04.355841+00:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "stages": [
+    {
+      "stage": "build reference features",
+      "elapsed_s": 3.799
+    },
+    {
+      "stage": "reproduce publisher source values",
+      "elapsed_s": 1.198
+    },
+    {
+      "stage": "train and validate phenotype model",
+      "elapsed_s": 78.079
+    },
+    {
+      "stage": "build diazepam features",
+      "elapsed_s": 3.041
+    },
+    {
+      "stage": "train and validate drug response",
+      "elapsed_s": 20.678
+    },
+    {
+      "stage": "export report figures",
+      "elapsed_s": 10.93
+    },
+    {
+      "stage": "export lightweight public assets",
+      "elapsed_s": 2.914
+    },
+    {
+      "stage": "build technical report",
+      "elapsed_s": 1.16
+    },
+    {
+      "stage": "run automated tests",
+      "elapsed_s": 7.823
+    }
+  ],
+  "total_elapsed_s": 129.622
+}

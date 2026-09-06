@@ -1,0 +1,267 @@
+{
+  "model_status": "frozen; trained only on Sharf et al. diazepam organoid data",
+  "model_path": "artifacts\\models\\drug_response_model.joblib",
+  "model_sha256": "e142918188a7736cd8e8b289d97000f4688c31293ec0fd13c55e9c7984cadebf",
+  "model_feature_names": [
+    "isi_cv_mean",
+    "isi_median_s"
+  ],
+  "primary_window_s": 180,
+  "sensitivity_window_s": 600,
+  "external_data_doi": "10.12751/g-node.wvr3jf",
+  "interpretation": "Response magnitude is transferred across compounds and culture systems. The diazepam dose calibrator is not interpreted for external compounds.",
+  "metrics": [
+    {
+      "scope": "pooled",
+      "window_s": 180,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "pooled",
+      "n_pairs": 66,
+      "n_active": 55,
+      "n_negative_control": 11,
+      "roc_auc": 0.9520661157024792,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.8809917355371901,
+        0.996694214876033
+      ],
+      "median_active_response_magnitude": 4.845885812317685,
+      "median_negative_response_magnitude": 0.46653357016108815,
+      "mann_whitney_u": 576.0,
+      "mann_whitney_two_sided_p": 2.6376432106744117e-06,
+      "rank_biserial_effect": 0.9041322314049585,
+      "sensitivity_at_diazepam_reference_p95": 0.5272727272727272,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "hpsc_mea3",
+      "window_s": 180,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "hpsc_mea3",
+      "n_pairs": 24,
+      "n_active": 20,
+      "n_negative_control": 4,
+      "roc_auc": 1.0,
+      "roc_auc_stratified_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "median_active_response_magnitude": 5.108037983583534,
+      "median_negative_response_magnitude": 1.1152513547167557,
+      "mann_whitney_u": 80.0,
+      "mann_whitney_two_sided_p": 0.00018821757952192734,
+      "rank_biserial_effect": 1.0,
+      "sensitivity_at_diazepam_reference_p95": 0.65,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "rat_mea2",
+      "window_s": 180,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "rat_mea2",
+      "n_pairs": 42,
+      "n_active": 35,
+      "n_negative_control": 7,
+      "roc_auc": 0.9306122448979592,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.8040816326530612,
+        1.0
+      ],
+      "median_active_response_magnitude": 4.1588137763574204,
+      "median_negative_response_magnitude": 0.36901390438918164,
+      "mann_whitney_u": 228.0,
+      "mann_whitney_two_sided_p": 6.887009454403549e-05,
+      "rank_biserial_effect": 0.8612244897959185,
+      "sensitivity_at_diazepam_reference_p95": 0.45714285714285713,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "pooled",
+      "window_s": 180,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "pooled",
+      "n_pairs": 66,
+      "n_active": 26,
+      "n_negative_control": 40,
+      "roc_auc": 0.95,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.8653846153846154,
+        1.0
+      ],
+      "median_active_response_magnitude": 11.755050378606862,
+      "median_negative_response_magnitude": 1.1378998313397704,
+      "mann_whitney_u": 988.0,
+      "mann_whitney_two_sided_p": 8.513195520282035e-10,
+      "rank_biserial_effect": 0.8999999999999999,
+      "sensitivity_at_diazepam_reference_p95": 0.9230769230769231,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "hpsc_mea3",
+      "window_s": 180,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "hpsc_mea3",
+      "n_pairs": 24,
+      "n_active": 12,
+      "n_negative_control": 12,
+      "roc_auc": 1.0,
+      "roc_auc_stratified_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "median_active_response_magnitude": 11.41619776971428,
+      "median_negative_response_magnitude": 0.9885012218805447,
+      "mann_whitney_u": 144.0,
+      "mann_whitney_two_sided_p": 3.6584553538971e-05,
+      "rank_biserial_effect": 1.0,
+      "sensitivity_at_diazepam_reference_p95": 1.0,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "rat_mea2",
+      "window_s": 180,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "rat_mea2",
+      "n_pairs": 42,
+      "n_active": 14,
+      "n_negative_control": 28,
+      "roc_auc": 0.9030612244897959,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.7550382653061224,
+        1.0
+      ],
+      "median_active_response_magnitude": 12.017543785971906,
+      "median_negative_response_magnitude": 1.203867495599412,
+      "mann_whitney_u": 354.0,
+      "mann_whitney_two_sided_p": 2.641390924686247e-05,
+      "rank_biserial_effect": 0.8061224489795917,
+      "sensitivity_at_diazepam_reference_p95": 0.8571428571428571,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "pooled",
+      "window_s": 600,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "pooled",
+      "n_pairs": 66,
+      "n_active": 55,
+      "n_negative_control": 11,
+      "roc_auc": 0.9338842975206612,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.8628099173553719,
+        0.9867768595041322
+      ],
+      "median_active_response_magnitude": 4.789135621571105,
+      "median_negative_response_magnitude": 0.6409953643795546,
+      "mann_whitney_u": 565.0,
+      "mann_whitney_two_sided_p": 6.546424693364038e-06,
+      "rank_biserial_effect": 0.8677685950413223,
+      "sensitivity_at_diazepam_reference_p95": 0.4909090909090909,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "hpsc_mea3",
+      "window_s": 600,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "hpsc_mea3",
+      "n_pairs": 24,
+      "n_active": 20,
+      "n_negative_control": 4,
+      "roc_auc": 1.0,
+      "roc_auc_stratified_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "median_active_response_magnitude": 4.96176790797654,
+      "median_negative_response_magnitude": 1.0380955802668814,
+      "mann_whitney_u": 80.0,
+      "mann_whitney_two_sided_p": 0.00018821757952192734,
+      "rank_biserial_effect": 1.0,
+      "sensitivity_at_diazepam_reference_p95": 0.55,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "rat_mea2",
+      "window_s": 600,
+      "comparison": "pharma_vs_baseline",
+      "dataset_id": "rat_mea2",
+      "n_pairs": 42,
+      "n_active": 35,
+      "n_negative_control": 7,
+      "roc_auc": 0.910204081632653,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.7877551020408163,
+        0.9959183673469387
+      ],
+      "median_active_response_magnitude": 4.571109249921577,
+      "median_negative_response_magnitude": 0.4218507832733588,
+      "mann_whitney_u": 223.0,
+      "mann_whitney_two_sided_p": 0.00020749988657562472,
+      "rank_biserial_effect": 0.820408163265306,
+      "sensitivity_at_diazepam_reference_p95": 0.45714285714285713,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "pooled",
+      "window_s": 600,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "pooled",
+      "n_pairs": 66,
+      "n_active": 26,
+      "n_negative_control": 40,
+      "roc_auc": 0.9221153846153846,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.8076923076923077,
+        0.9990384615384615
+      ],
+      "median_active_response_magnitude": 11.08432506843434,
+      "median_negative_response_magnitude": 0.8381586915152714,
+      "mann_whitney_u": 959.0,
+      "mann_whitney_two_sided_p": 8.690845194225333e-09,
+      "rank_biserial_effect": 0.8442307692307691,
+      "sensitivity_at_diazepam_reference_p95": 0.8846153846153846,
+      "negative_rate_at_diazepam_reference_p95": 0.05
+    },
+    {
+      "scope": "hpsc_mea3",
+      "window_s": 600,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "hpsc_mea3",
+      "n_pairs": 24,
+      "n_active": 12,
+      "n_negative_control": 12,
+      "roc_auc": 1.0,
+      "roc_auc_stratified_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "median_active_response_magnitude": 11.08432506843434,
+      "median_negative_response_magnitude": 0.7834473669722969,
+      "mann_whitney_u": 144.0,
+      "mann_whitney_two_sided_p": 3.6584553538971e-05,
+      "rank_biserial_effect": 1.0,
+      "sensitivity_at_diazepam_reference_p95": 1.0,
+      "negative_rate_at_diazepam_reference_p95": 0.0
+    },
+    {
+      "scope": "rat_mea2",
+      "window_s": 600,
+      "comparison": "ttx_vs_pharma",
+      "dataset_id": "rat_mea2",
+      "n_pairs": 42,
+      "n_active": 14,
+      "n_negative_control": 28,
+      "roc_auc": 0.8571428571428571,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.6530612244897959,
+        1.0
+      ],
+      "median_active_response_magnitude": 11.900461714389829,
+      "median_negative_response_magnitude": 0.8967248959259648,
+      "mann_whitney_u": 336.0,
+      "mann_whitney_two_sided_p": 0.0001975758786753239,
+      "rank_biserial_effect": 0.7142857142857142,
+      "sensitivity_at_diazepam_reference_p95": 0.7857142857142857,
+      "negative_rate_at_diazepam_reference_p95": 0.07142857142857142
+    }
+  ]
+}

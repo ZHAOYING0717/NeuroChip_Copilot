@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.423622pt" height="171.552756pt" viewBox="0 0 416.423622 171.552756" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-09T11:08:34.507119</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 171.552756 
+L 416.423622 171.552756 
+L 416.423622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.838449 109.034986 
+L 71.925803 109.034986 
+Q 76.750087 109.034986 76.750087 107.149153 
+L 76.750087 54.974438 
+Q 76.750087 53.088605 71.925803 53.088605 
+L 14.838449 53.088605 
+Q 10.014165 53.088605 10.014165 54.974438 
+L 10.014165 107.149153 
+Q 10.014165 109.034986 14.838449 109.034986 
+z
+" clip-path="url(#pcadcca861f)" style="fill: #e9eff4; stroke: #3166a8; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 91.222937 109.034986 
+L 148.310291 109.034986 
+Q 153.134575 109.034986 153.134575 107.149153 
+L 153.134575 54.974438 
+Q 153.134575 53.088605 148.310291 53.088605 
+L 91.222937 53.088605 
+Q 86.398654 53.088605 86.398654 54.974438 
+L 86.398654 107.149153 
+Q 86.398654 109.034986 91.222937 109.034986 
+z
+" clip-path="url(#pcadcca861f)" style="fill: #e8f3f2; stroke: #147f7a; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 167.607425 109.034986 
+L 236.755488 109.034986 
+Q 241.579772 109.034986 241.579772 107.149153 
+L 241.579772 54.974438 
+Q 241.579772 53.088605 236.755488 53.088605 
+L 167.607425 53.088605 
+Q 162.783142 53.088605 162.783142 54.974438 
+L 162.783142 107.149153 
+Q 162.783142 109.034986 167.607425 109.034986 
+z
+" clip-path="url(#pcadcca861f)" style="fill: #f7f1e5; stroke: #b77c14; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 256.052622 109.034986 
+L 321.180449 109.034986 
+Q 326.004732 109.034986 326.004732 107.149153 
+L 326.004732 54.974438 
+Q 326.004732 53.088605 321.180449 53.088605 
+L 256.052622 53.088605 
+Q 251.228339 53.088605 251.228339 54.974438 
+L 251.228339 107.149153 
+Q 251.228339 109.034986 256.052622 109.034986 
+z
+" clip-path="url(#pcadcca861f)" style="fill: #f4edef; stroke: #8b4f87; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 340.477583 109.034986 
+L 401.585173 109.034986 
+Q 406.409457 109.034986 406.409457 107.149153 
+L 406.409457 54.974438 
+Q 406.409457 53.088605 401.585173 53.088605 
+L 340.477583 53.088605 
+Q 335.653299 53.088605 335.653299 54.974438 
+L 335.653299 107.149153 
+Q 335.653299 109.034986 340.477583 109.034986 
+z
+" clip-path="url(#pcadcca861f)" style="fill: #eef2e7; stroke: #557a30; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #20262a" x="43.382126" y="73.25557" transform="rotate(-0 43.382126 73.25557)">Spike-event inputs</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #4e585e" x="43.382126" y="91.829827" transform="rotate(-0 43.382126 91.829827)">MAT / HDF5 / CSV</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #20262a" x="119.766614" y="73.25557" transform="rotate(-0 119.766614 73.25557)">Scope and QC</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(101.325489 87.865975)">channel audit</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(100.641067 95.104898)">stability guard</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #20262a" x="202.181457" y="73.25557" transform="rotate(-0 202.181457 73.25557)">Functional features</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(175.651754 87.287631)">rate / STTC / graph</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(170.131816 95.757351)">avalanche / information</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #20262a" x="288.616535" y="73.25557" transform="rotate(-0 288.616535 73.25557)">Interpretable models</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(264.836629 87.287631)">anomaly Shapley</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(263.344754 95.14268)">goal-aware effects</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #20262a" x="371.031378" y="73.25557" transform="rotate(-0 371.031378 73.25557)">Research outputs</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(344.150987 87.323959)">dashboard / reports</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #4e585e" transform="translate(338.295378 95.14268)">projects / standard CSV</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 78.752353 81.061795 
+Q 81.57678 81.061795 83.171369 81.061795 
+" style="fill: none; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 80.371369 79.661795 
+L 83.171369 81.061795 
+L 80.371369 82.461795 
+z
+" style="fill: #8c969c; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 155.136841 81.061795 
+Q 157.961268 81.061795 159.555858 81.061795 
+" style="fill: none; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 156.755858 79.661795 
+L 159.555858 81.061795 
+L 156.755858 82.461795 
+z
+" style="fill: #8c969c; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 243.582038 81.061795 
+Q 246.406465 81.061795 248.001054 81.061795 
+" style="fill: none; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 245.201054 79.661795 
+L 248.001054 81.061795 
+L 245.201054 82.461795 
+z
+" style="fill: #8c969c; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 328.006998 81.061795 
+Q 330.831425 81.061795 332.426015 81.061795 
+" style="fill: none; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 329.626015 79.661795 
+L 332.426015 81.061795 
+L 329.626015 82.461795 
+z
+" style="fill: #8c969c; stroke: #8c969c; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #20262a" x="13.230354" y="24.486803" transform="rotate(-0 13.230354 24.486803)">NeuroChip Copilot analysis architecture</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.3px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #465158" x="13.230354" y="139.208315" transform="rotate(-0 13.230354 139.208315)">Validation: source reproduction | group-held-out anomalies | leave-one-organoid-out response | frozen 2D and organoid stress tests</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #a3453e" x="13.230354" y="155.709354" transform="rotate(-0 13.230354 155.709354)">Boundary: event-only files cannot establish voltage noise, saturation or waveform quality; predictive direction is not proof of causal influence.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcadcca861f">
+   <rect x="7.2" y="7.2" width="402.023622" height="157.152756"/>
+  </clipPath>
+ </defs>
+</svg>

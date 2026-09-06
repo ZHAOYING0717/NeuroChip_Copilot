@@ -1,0 +1,95 @@
+{
+  "datasets": {
+    "trujillo_organoid_pharmacology": {
+      "title": "Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development",
+      "data_doi": "10.5281/zenodo.4751759",
+      "article_doi": "10.1016/j.stem.2019.08.002",
+      "license": "CC BY 4.0",
+      "source_type": "cortical organoid MEA, paired same-date baseline and pharmacology recordings",
+      "raw_dir": "data/raw/external/zenodo_4751759",
+      "files": [
+        {
+          "name": "LFP_Sp_161217.mat",
+          "size_bytes": 1283529863,
+          "md5": "6d48d3abd16e16d610bc2d5d42bbf20c",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_161217.mat/content"
+        },
+        {
+          "name": "LFP_Sp_161217_Drugs.mat",
+          "size_bytes": 1357743120,
+          "md5": "3a4b57b359ecf77fc283540a4b4e899d",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_161217_Drugs.mat/content"
+        },
+        {
+          "name": "LFP_Sp_170207.mat",
+          "size_bytes": 1458564951,
+          "md5": "e878d458a8a876f7c97ac82a1f8ed3b7",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_170207.mat/content"
+        },
+        {
+          "name": "LFP_Sp_170207_Drugs.mat",
+          "size_bytes": 1411732860,
+          "md5": "9bb87d9568910c15f321117db32651fe",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_170207_Drugs.mat/content"
+        },
+        {
+          "name": "LFP_Sp_170303.mat",
+          "size_bytes": 2421868029,
+          "md5": "9c5e6b225a2dd2214db4a841454c6861",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_170303.mat/content"
+        },
+        {
+          "name": "LFP_Sp_170303_Drugs.mat",
+          "size_bytes": 1658830483,
+          "md5": "207624a02878244f699d38cd104658c6",
+          "url": "https://zenodo.org/api/records/4751759/files/LFP_Sp_170303_Drugs.mat/content"
+        }
+      ]
+    },
+    "comparative_mea_pharmacology": {
+      "title": "Comparative microelectrode array dataset of functional development of human pluripotent stem cell-derived and rat neuronal networks",
+      "data_doi": "10.12751/g-node.wvr3jf",
+      "article_doi": "10.1038/s41597-022-01242-4",
+      "license": "CC BY 4.0",
+      "source_type": "human iPSC-derived and rat primary 2D neuronal MEA pharmacology",
+      "raw_dir": "data/raw/external/gin_comparative_mea",
+      "files": [
+        {
+          "name": "Comparative_MEA_dataset-0f0f135.zip",
+          "size_bytes": 56575897,
+          "url": "https://gin.g-node.org/NeuroGroup_TUNI/Comparative_MEA_dataset/archive/0f0f13517bf6cfc382b5f3c3f9219f13d76d798a.zip",
+          "archive": true,
+          "extract_to": "data/x/gin"
+        },
+        {
+          "name": "hPSC_120618_MEA3Baseline_DIV29_spikes.csv",
+          "size_bytes": 55828307,
+          "md5": "7799f10e0737fa3f034c1b55d7268927",
+          "range_supported": false,
+          "url": "https://gin.g-node.org/NeuroGroup_TUNI/Comparative_MEA_dataset/annex/objects/ae1/ddc/MD5-s55828307--7799f10e0737fa3f034c1b55d7268927/MD5-s55828307--7799f10e0737fa3f034c1b55d7268927"
+        },
+        {
+          "name": "hPSC_120618_MEA3Pharma_DIV29_spikes.csv",
+          "size_bytes": 39336289,
+          "md5": "0d3afb102f6f759f0cd01cfc47f0636f",
+          "range_supported": false,
+          "url": "https://gin.g-node.org/NeuroGroup_TUNI/Comparative_MEA_dataset/annex/objects/7e1/9d8/MD5-s39336289--0d3afb102f6f759f0cd01cfc47f0636f/MD5-s39336289--0d3afb102f6f759f0cd01cfc47f0636f"
+        },
+        {
+          "name": "Rat_50618_MEA2Baseline_DIV22_spikes.csv",
+          "size_bytes": 60309223,
+          "md5": "4f752f5703b2cf2d1df8a77f9209d9c1",
+          "range_supported": false,
+          "url": "https://gin.g-node.org/NeuroGroup_TUNI/Comparative_MEA_dataset/annex/objects/fc0/15f/MD5-s60309223--4f752f5703b2cf2d1df8a77f9209d9c1/MD5-s60309223--4f752f5703b2cf2d1df8a77f9209d9c1"
+        },
+        {
+          "name": "Rat_50618_MEA2Pharma_DIV22_spikes.csv",
+          "size_bytes": 25422767,
+          "md5": "b19fd38b57cd49e973b940016dfc1a16",
+          "range_supported": false,
+          "url": "https://gin.g-node.org/NeuroGroup_TUNI/Comparative_MEA_dataset/annex/objects/de1/10f/MD5-s25422767--b19fd38b57cd49e973b940016dfc1a16/MD5-s25422767--b19fd38b57cd49e973b940016dfc1a16"
+        }
+      ]
+    }
+  }
+}

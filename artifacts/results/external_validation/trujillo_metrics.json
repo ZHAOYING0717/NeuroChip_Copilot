@@ -1,0 +1,144 @@
+{
+  "model_status": "frozen; trained only on Sharf et al. diazepam organoid data",
+  "model_path": "artifacts/models/drug_response_model.joblib",
+  "model_sha256": "e142918188a7736cd8e8b289d97000f4688c31293ec0fd13c55e9c7984cadebf",
+  "model_feature_names": [
+    "isi_cv_mean",
+    "isi_median_s"
+  ],
+  "external_data_doi": "10.5281/zenodo.4751759",
+  "external_article_doi": "10.1016/j.stem.2019.08.002",
+  "primary_window_s": 120,
+  "sensitivity_window_s": 90,
+  "n_feature_rows": 144,
+  "n_pair_scores": 96,
+  "primary_labeled_endpoint": {
+    "score": "response_magnitude",
+    "n_active": 6,
+    "n_control": 6,
+    "roc_auc": 0.888888888888889,
+    "roc_auc_stratified_bootstrap_95ci": [
+      0.6666666666666666,
+      1.0
+    ],
+    "median_active": 11.947009814390444,
+    "median_control": 1.0072539220671195,
+    "mann_whitney_two_sided_p": 0.025974025974025976,
+    "rank_biserial_effect": 0.7777777777777779,
+    "window_s": 120,
+    "endpoint": "known spike/burst-suppressing treatment vs contemporaneous untreated control wells",
+    "sensitivity_at_frozen_diazepam_reference_p95": 1.0,
+    "specificity_at_frozen_diazepam_reference_p95": 0.8333333333333334
+  },
+  "baseline_comparison": [
+    {
+      "score": "response_magnitude",
+      "n_active": 6,
+      "n_control": 6,
+      "roc_auc": 0.888888888888889,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.6666666666666666,
+        1.0
+      ],
+      "median_active": 11.947009814390444,
+      "median_control": 1.0072539220671195,
+      "mann_whitney_two_sided_p": 0.025974025974025976,
+      "rank_biserial_effect": 0.7777777777777779,
+      "window_s": 120,
+      "endpoint": "known spike/burst-suppressing treatment vs contemporaneous untreated control wells",
+      "sensitivity_at_frozen_diazepam_reference_p95": 1.0,
+      "specificity_at_frozen_diazepam_reference_p95": 0.8333333333333334
+    },
+    {
+      "score": "firing_rate_abs_log_delta",
+      "n_active": 6,
+      "n_control": 6,
+      "roc_auc": 0.8333333333333334,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.5,
+        1.0
+      ],
+      "median_active": 1.5662261651091018,
+      "median_control": 0.3388904460958766,
+      "mann_whitney_two_sided_p": 0.06493506493506493,
+      "rank_biserial_effect": 0.6666666666666667
+    },
+    {
+      "score": "isi_cv_only_abs_log_delta",
+      "n_active": 6,
+      "n_control": 6,
+      "roc_auc": 0.8333333333333334,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.5,
+        1.0
+      ],
+      "median_active": 1.6944747750066642,
+      "median_control": 0.1596320154101456,
+      "mann_whitney_two_sided_p": 0.06493506493506493,
+      "rank_biserial_effect": 0.6666666666666667
+    },
+    {
+      "score": "isi_median_only_abs_log_delta",
+      "n_active": 6,
+      "n_control": 6,
+      "roc_auc": 0.9166666666666667,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.6666666666666666,
+        1.0
+      ],
+      "median_active": 0.8981453463384208,
+      "median_control": 0.0001794795456130998,
+      "mann_whitney_two_sided_p": 0.015151515151515152,
+      "rank_biserial_effect": 0.8333333333333335
+    },
+    {
+      "score": "legacy_v1_response_magnitude",
+      "n_active": 6,
+      "n_control": 6,
+      "roc_auc": 0.888888888888889,
+      "roc_auc_stratified_bootstrap_95ci": [
+        0.6666666666666666,
+        1.0
+      ],
+      "median_active": 9.904493720624755,
+      "median_control": 1.9574751090408917,
+      "mann_whitney_two_sided_p": 0.025974025974025976,
+      "rank_biserial_effect": 0.7777777777777779
+    }
+  ],
+  "paired_natural_drift_check": {
+    "window_s": 120,
+    "n_matched_active_wells": 6,
+    "median_active_response_magnitude": 11.947009814390444,
+    "median_same_well_natural_drift_magnitude": 0.33037749780088926,
+    "paired_wilcoxon_active_greater_p": 0.015625,
+    "fraction_active_exceeding_same_well_drift": 1.0
+  },
+  "sensitivity_90s_labeled_endpoint": {
+    "score": "response_magnitude",
+    "n_active": 6,
+    "n_control": 6,
+    "roc_auc": 0.8611111111111112,
+    "roc_auc_stratified_bootstrap_95ci": [
+      0.5555555555555556,
+      1.0
+    ],
+    "median_active": 11.063801810483927,
+    "median_control": 0.8323033490475735,
+    "mann_whitney_two_sided_p": 0.04112554112554113,
+    "rank_biserial_effect": 0.7222222222222223,
+    "window_s": 90,
+    "endpoint": "known spike/burst-suppressing treatment vs contemporaneous untreated control wells",
+    "sensitivity_at_frozen_diazepam_reference_p95": 1.0,
+    "specificity_at_frozen_diazepam_reference_p95": 0.8333333333333334
+  },
+  "label_provenance": {
+    "source": "voytekresearch/OscillatoryOrganoids scripts/corticoid_figures.m",
+    "known_dates": [
+      "161217",
+      "170207"
+    ],
+    "unlabeled_date": "170303"
+  },
+  "interpretation": "Frozen paired-response transfer to an independent cortical-organoid MEA protocol. External compound dose estimates are not interpreted; small labeled sample sizes require caution."
+}

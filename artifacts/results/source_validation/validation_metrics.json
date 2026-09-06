@@ -1,0 +1,12 @@
+{
+  "n_extracted": 45,
+  "n_published": 45,
+  "n_matched": 45,
+  "firing_rate_max_abs_error": 8.881784197001252e-16,
+  "sttc_max_abs_error": 1.1102230246251565e-16,
+  "firing_rate_exact_within_1e_10": true,
+  "sttc_exact_within_1e_10": true,
+  "sttc_delta_ms": 20,
+  "source_sheet": "ST1",
+  "source_dataset_doi": "10.5281/zenodo.20286251"
+}

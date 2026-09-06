@@ -1,0 +1,48 @@
+{
+  "n_conditions": 19,
+  "n_organoids": 4,
+  "cross_validation": "LeaveOneGroupOut by organoid; held-out treatments paired only to their held-out control",
+  "feature_names": [
+    "isi_cv_mean",
+    "isi_median_s"
+  ],
+  "response_magnitude_dose_spearman": 0.9039688845323001,
+  "response_magnitude_dose_spearman_cluster_bootstrap_95ci": [
+    0.6408064481545643,
+    0.9907548092361401
+  ],
+  "treated_only_dose_spearman": 0.8033403916768476,
+  "treated_only_blocked_permutation_p": 0.001999600079984003,
+  "high_dose_auc": 0.9642857142857143,
+  "high_dose_auc_cluster_bootstrap_95ci": [
+    0.85,
+    1.0
+  ],
+  "exploratory_dose_mae_um": 7.16008400412994,
+  "exploratory_dose_rmse_um": 12.682426849790422,
+  "exploratory_dose_r2": 0.5621726267614019,
+  "exploratory_dose_spearman": 0.8569310751910921,
+  "within_organoid_dose_spearman": {
+    "2950": 0.9999999999999999,
+    "2953": 0.9999999999999999,
+    "2954": 0.9999999999999999,
+    "2957": 0.39999999999999997
+  },
+  "scope": "Small public proof-of-concept cohort; response magnitude is primary, calibrated dose is exploratory.",
+  "model_version": "2.0",
+  "feature_selection": {
+    "primary": [
+      "isi_cv_mean",
+      "isi_median_s"
+    ],
+    "legacy_v1": [
+      "isi_cv_mean",
+      "isi_median_s",
+      "network_burst_mean_duration_s"
+    ],
+    "primary_grouped_cv_dose_spearman": 0.9039688845323001,
+    "legacy_grouped_cv_dose_spearman": 0.8311841135113096,
+    "policy": "The simpler spike-timing model is primary because it improved leave-one-organoid-out metrics. The extended research feature set remains exploratory and did not improve this small cohort."
+  },
+  "quality_gate": "Paired inference reports the minimum event-QC score and flags scores below 50."
+}

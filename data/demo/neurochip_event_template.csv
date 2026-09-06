@@ -1,0 +1,5 @@
+recording_id,timestamp_s,channel_id,amplitude_uv,duration_s,well_id,source_vendor,schema_version
+recording_001,0.102,11,35.2,180,A1,Axion,1.0
+recording_001,0.151,12,42.0,180,A1,Axion,1.0
+recording_001,0.218,11,31.8,180,A1,Axion,1.0
+recording_001,0.304,13,38.6,180,A1,Axion,1.0
