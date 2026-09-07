@@ -8,7 +8,7 @@
 
 ## Required links
 
-- **Public demo video (maximum 5 minutes):** `[PUBLIC_VIDEO_URL]`
+- **Public demo video (maximum 5 minutes):** `https://www.bilibili.com/video/BV11Zbc6WEuS/`
 - **Public code repository:** `https://github.com/ZHAOYING0717/NeuroChip_Copilot`
 - **Technical report PDF:** Attached to this Writeup as NeuroChip_Copilot_Technical_Report.pdf (16 pages); mirrored in the public repository under output/pdf/
 - **Optional public application:** Not deployed; the dashboard runs locally with python demo.py --demo-only after installing requirements.txt
