@@ -4,7 +4,7 @@
 
 **End-to-end scope:** detected MEA spike events -> scope-aware QC -> functional features -> interpretable AI evidence -> matched multidimensional intervention evaluation -> reports and project history.
 
-**Team:** `[TEAM_NAME]` | **Members and roles:** `[TEAM_MEMBER_NAMES_AND_ROLES]` | **Registration form completed:** `[REGISTRATION_CONFIRMED_YES_OR_NO]`
+**Team:** `NeuroChip` | **Members and roles:** `赵梦颖 (team leader, system development and validation), 席玉杰 (member)` | **Registration form completed:** `Yes`
 
 ## Required links
 

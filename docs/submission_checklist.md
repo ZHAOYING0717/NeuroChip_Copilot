@@ -36,10 +36,10 @@ Official submission surface: **one submitted Kaggle Writeup plus the separate re
 
 ## Registration and team eligibility
 
-- [ ] Submit the separate registration form before the Kaggle Writeup deadline
-- [ ] Confirm the team has one to five members and one leader
+- [x] Submit the separate registration form before the Kaggle Writeup deadline
+- [x] Confirm the team has one to five members and one leader (NeuroChip: 赵梦颖 leader, 席玉杰 member)
 - [ ] Confirm each person belongs to only one team
-- [ ] Replace `[TEAM_NAME]`, member, affiliation, and role placeholders
+- [x] Replace `[TEAM_NAME]`, member, affiliation, and role placeholders
 - [ ] State truthfully whether the team qualifies for the cross-disciplinary bonus
 - [ ] Do not claim the bonus unless both AI/computer-science and biology/bioengineering/clinical expertise are represented by real team members
 

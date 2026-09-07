@@ -29,7 +29,7 @@ Preliminary deadline: **10 October 2026**
 
 ## Team and account fields that cannot be inferred
 
-- `[TEAM_NAME]`
+- NeuroChip
 - `[TEAM_LEADER_NAME]`
 - `[TEAM_MEMBER_NAMES_AFFILIATIONS_AND_ROLES]`
 - `[YES_OR_NO_WITH_SUPPORTING_ROLES]` for the cross-disciplinary bonus
