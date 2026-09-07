@@ -10,8 +10,8 @@
 
 - **Public demo video (maximum 5 minutes):** `[PUBLIC_VIDEO_URL]`
 - **Public code repository:** `https://github.com/ZHAOYING0717/NeuroChip_Copilot`
-- **Technical report PDF:** `[PUBLIC_REPORT_URL_OR_KAGGLE_ATTACHMENT]`
-- **Optional public application:** `[PUBLIC_DEMO_URL]`
+- **Technical report PDF:** Attached to this Writeup as NeuroChip_Copilot_Technical_Report.pdf (16 pages); mirrored in the public repository under output/pdf/
+- **Optional public application:** Not deployed; the dashboard runs locally with python demo.py --demo-only after installing requirements.txt
 
 All links must be publicly accessible without login, permission requests, or payment before the final Writeup is submitted.
 
@@ -54,7 +54,7 @@ Trujillo et al., *Complex Oscillatory Waves Emerging from Cortical Organoids Mod
 
 ## How it works
 
-![NeuroChip Copilot architecture](assets/figure0_architecture.png)
+![NeuroChip Copilot architecture](https://raw.githubusercontent.com/ZHAOYING0717/NeuroChip_Copilot/master/docs/assets/figure0_architecture.png)
 
 ### 1. Scope-aware ingestion and QC
 
@@ -78,7 +78,7 @@ For each treatment, the model computes signed log feature changes from the same 
 
 ## Results and credibility
 
-![Source reproduction and anomaly evaluation](assets/figure1_validation.png)
+![Source reproduction and anomaly evaluation](https://raw.githubusercontent.com/ZHAOYING0717/NeuroChip_Copilot/master/docs/assets/figure1_validation.png)
 
 - All 45 publisher rows matched.
 - Anomaly AUROC: `0.858`; average precision: `0.927`.
@@ -86,7 +86,7 @@ For each treatment, the model computes signed log feature changes from the same 
 - Fold AUROC range: `0.784-0.905`.
 - Full-feature AUROC `0.858` versus network-only `0.827`, activity-only `0.735`, and spike-timing-only `0.546`.
 
-![Matched-control diazepam response](assets/figure2_drug_response.png)
+![Matched-control diazepam response](https://raw.githubusercontent.com/ZHAOYING0717/NeuroChip_Copilot/master/docs/assets/figure2_drug_response.png)
 
 - Held-out dose-response Spearman rho: `0.904` (cluster-bootstrap 95% CI `0.641-0.991`).
 - Treated-only rho: `0.803`; blocked within-organoid permutation `p=0.0020`.
@@ -94,7 +94,7 @@ For each treatment, the model computes signed log feature changes from the same 
 - The legacy timing-plus-burst model reached rho `0.831`; the extended eight-feature research set reached `0.693`; the unpaired reference reversed the association at `-0.328`.
 - Exploratory dose MAE was `7.16 uM`; response magnitude, not dose prediction, remains the supported endpoint.
 
-![Frozen external response transfer](assets/figure3_external_validation.png)
+![Frozen external response transfer](https://raw.githubusercontent.com/ZHAOYING0717/NeuroChip_Copilot/master/docs/assets/figure3_external_validation.png)
 
 - Frozen active-pharmacology versus control AUROC: `0.952` (95% CI `0.881-0.997`; 55 active and 11 negative-control matched wells).
 - Frozen TTX versus non-TTX AUROC: `0.950` (95% CI `0.865-1.000`; 26 TTX and 40 non-TTX matched wells).
